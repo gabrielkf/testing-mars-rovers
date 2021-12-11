@@ -1,8 +1,8 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { render /* , fireEvent */ } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import DateSlider from './DateSlider';
-import { solToDate, dateToSol } from '../services/sols';
+import { /* solToDate, */ dateToSol } from '../services/sols';
 
 describe('DateSlider', () => {
   describe('render', () => {

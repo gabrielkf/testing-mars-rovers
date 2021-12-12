@@ -41,7 +41,7 @@ describe('DateSlider', () => {
       const fn = jest.fn();
 
       const { getByTestId } = render(
-        <DateSlider earth_date="2018-6-9" onDateChanged={fn} />
+        <DateSlider earth_date="2018-6-28" onDateChanged={fn} />
       );
 
       const input = getByTestId('date-slider');
